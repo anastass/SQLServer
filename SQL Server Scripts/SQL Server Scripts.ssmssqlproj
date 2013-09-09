@@ -3,7 +3,7 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="(local)\sqlexpress:Alex-HP\Alex">
+        <ConnectionNode Name="(local)\sqlexpress:IAEA\anastass">
           <Created>2013-09-07T16:43:56.5873488+02:00</Created>
           <Type>SQL</Type>
           <Server>(local)\sqlexpress</Server>
@@ -24,6 +24,18 @@
           <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sql_disaster_recovery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_restore_validation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sql_restore_validation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_file_groups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sql_file_groups.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
